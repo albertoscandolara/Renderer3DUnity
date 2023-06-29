@@ -1,0 +1,79 @@
+{
+  "txs": [
+    {
+      "hash": "d60cf144b953368eb08e59dbe74eb3cce978d2328a2c5187a897c131ce196299",
+      "ver": 1,
+      "vin_sz": 1,
+      "vout_sz": 2,
+      "size": 223,
+      "weight": 562,
+      "fee": 4230,
+      "relayed_by": "0.0.0.0",
+      "lock_time": 0,
+      "tx_index": 5396691801225266,
+      "double_spend": false,
+      "time": 1687169824,
+      "block_index": null,
+      "block_height": null,
+      "inputs": [
+        {
+          "sequence": 0,
+          "witness": "02483045022100d9ec3d8eff3e61ffe329fea6c2b839d48f36c2b9d83b10c15a30032f45b27a8e022007f4779acde9e986457d97319192a14430853b442b2475c56b3925db2abb681b01210301856d23ccbac0b96e70c2563b0812f3cd09a535772858d883eae61e936347f0",
+          "script": "",
+          "index": 0,
+          "prev_out": {
+            "addr": "bc1ql5psffkdxjhm3hve9sqhnf8tl298zd2zc9rr23",
+            "n": 1,
+            "script": "0014fd0304a6cd34afb8dd992c0179a4ebfa8a713542",
+            "spending_outpoints": [
+              {
+                "n": 0,
+                "tx_index": 5396691801225266
+              },
+              {
+                "n": 0,
+                "tx_index": 5396691801225266
+              }
+            ],
+            "spent": true,
+            "tx_index": 2413988192884906,
+            "type": 0,
+            "value": 1172375
+          }
+        }
+      ],
+      "myout": [
+        {
+          "type": 0,
+          "spent": false,
+          "value": 1022918,
+          "spending_outpoints": [
+            {
+              "n": 0,
+              "tx_index": 5396691801225266
+            },
+            {
+              "n": 0,
+              "tx_index": 5396691801225266
+            }
+          ],
+          "n": 0,
+          "tx_index": 5396691801225266,
+          "script": "00147df77a9972c6c87e3bc468c2cc67d414c23766d9",
+          "addr": "bc1q0hmh4xtjcmy8uw7ydrpvce75znprwekeruj4cc"
+        },
+        {
+          "type": 0,
+          "spent": false,
+          "value": 145227,
+          "spending_outpoints": [],
+          "n": 1,
+          "tx_index": 5396691801225266,
+          "script": "0014fd0304a6cd34afb8dd992c0179a4ebfa8a713542",
+          "addr": "bc1ql5psffkdxjhm3hve9sqhnf8tl298zd2zc9rr23"
+        }
+      ],
+      "rbf": true
+    }
+  ]
+}
